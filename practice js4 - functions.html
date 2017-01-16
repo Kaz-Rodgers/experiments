@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+              <script type = "text/javascript">
+                                function draft(){
+                                  alert("Testing pop up capability of js"); // makes pop up in window
+                                }
+                draft(); // calls pop up
+
+                function anotherFunction(param){ // passing a parameter
+                  alert("Assuming that this is called properly " + param + " is displayed" );
+                }
+                anotherFunction("taco"); // parameter is not constrained by type 
+                anotherFunction(2);
+                anotherFunction(true);
+              </script>
+
+              <form class="" action="index.html" method="post"> <!-- form here input type is how it looks, value is what it says and onclick is what happens when it is clicked -->
+                <input type = "button" value = "poke me" onclick = "draft()">
+              </form>
+  </body>
+</html>
