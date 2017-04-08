@@ -4,6 +4,15 @@ header{
   color: #FFFFFF;
   text-align: center;
 }
+body{
+  color: #FFFFFF;
+  min-height: 100%;
+}
+h3{
+  font-weight: bold;
+  font-family: Perpetua;
+  text-decoration: underline;
+}
 nav{
   text-transform: uppercase;
   margin-left: auto;
@@ -25,10 +34,15 @@ nav a:hover{
   color: #1919FF;
 }
 footer{
+  align-self: center;
   text-align: center;
   color: #7F7FFF;
   background-color: #000000;
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 a{
   color: #FFFFFF;
@@ -45,7 +59,14 @@ a{
   padding: 0px 10px 0px 10px;
   background: #FFFFFF;
 }
-
+dt{
+  font-style: italic;
+  font-family: papyrus;
+}
+ul{
+  columns: 2;
+  list-style-type: none;
+}
 /*Classes defined for each individual page*/
 .page1{
 background-image: url("background/girl.png");
@@ -58,4 +79,10 @@ background-image: url("background/girl.png");
 }
 .page4{
   background-image: url("background/gray.jpg");
+}
+.social{
+  padding: 10px 10px 10px 10px;
+}
+.mid{
+  text-align: center;
 }
