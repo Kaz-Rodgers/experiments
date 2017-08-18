@@ -1,15 +1,17 @@
-var quotes = ["Why do I want to win so much...? Everyone takes up soccer for different reasons. But we all have a passion for the sport... That drive carries us through a game, even if we lose. If we win, it pushes us forward to the next game. The winners of the game honour the losers by playing with everything they have... and until we hit a wall, until a better team beats us, we should try our best, instead of running away. That's what I want to do!",
-
-             "I want to reply with a long message, but if it's too long, that might be kind of revolting. But if it's too short, then I might come off as cold instead. Feeling apprehensive of what to do, I decided to reply back with a similar word count instead. This was what they called \"mirroring\" in psychology. By emulating the actions of the other party, your affection levels would increase!",
-             "A road is something that you make yourself.", "If what I wished for was granted to me, if what I wanted was given to me. Then, as I thought, I wouldn't wish for anything nor want anything. Because the things you were granted and the things you were given were surely shams that would one day be lost. The things you wished for had no shape and the things you wanted were untouchable. Or possibly, they might be the most wonderful treasures that would become nothing if you were to touch them.",
-
-              "I don't think I'll learn anything if I don't try to do something about it on my own.",
-
-               "If youve got energy to spend on feeling guilty, then use it to show your gratitude.",
-
-               // add some more quotes
-           ];
-
+var quotes = ["Power isn't determined by your size, but the size of your heart and dreams! ~ Monkey D. Luffy (One Piece)",
+              "Time to get serious ~ Megaman X (Megaman X4)",
+              "Jack in, MegaMan.EXE, Transmit! ~ Lan (Megaman Battle Network)",
+              "Deceive your other self. Deceive the world. That is what you must do to reach the Steins Gate. Good Luck. El Psy Congroo. ~ Okabe Rintarou (Steins: Gate)",
+              "You want to kill me? You couldn't even kill my boredom! ~ Roronoa Zorro (One Piece)",
+              "Let's fly..you don't have to worry anymore we'll find the answer, we do it together...let's fly, you and me. ~ Yuki (Grandia III)",
+              "Kairi, I... It's just... they really need me. I have to go. I am who I am... because of them. ~ Sora (Kingdom Hearts)",
+              "It's over Wily! ~ Megaman (Megaman 8)",
+              "It is true that you have more experience than me, but I am good. That's all you will have to explain to your lapdogs how I made you look like an idiot in front of them. Ha ha. Oh another thing, you've got no style. You can throw that in too. ~ Baki (Baki The Grappler)",
+              "Power comes in response to a need, not a desire. You have to create that need. ~ Goku (Dragon Ball Z)",
+              "People who perish in other's battles are worms... If one can't live their life the way they want, they might as well die. ~ Guts (Berserk)",
+              "Why do I desire the touch of something that no longer exists? ~ 9S (Nier: Automata)",
+              "The unsuppressed soul lets flow oceans of blood The Watchers drink and raise high the basin of fire  Mighty generals hesitate beneath a crimson sky  As the tears of a goddess flow, four lost temples forebode the coming of the queen The dragon plummets from the tower of red thunder, and where it falls no one has seen ~ Opening (Drakenguard)"
+             ];
 
 function displayRandomQuote() {
     var displayQuote = document.getElementById('quoteText');

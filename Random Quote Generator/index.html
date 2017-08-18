@@ -7,45 +7,59 @@
        <style>
        @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
           body {
-              margin: 50px;
-              background-color: #fafafa;
+              /*Add background colors and stuff here*/
           }
 
           h1 {
-              font-family: 'Noto Sans', sans-serif;
               border: 2px double blue;
               text-align: center;
           }
 
           ul {
-              list-style-type: disc;
+              /*list-style-type: disc;*/
+              list-style-image: url('./favicon.ico');
+              list-style-position: inside;
           }
 
           li {
-              font-family: 'Noto Sans', sans-serif;
+
           }
 
           #quoteBox {
              display: none;
              border: 2px double teal;
+             /*use a new font here and higher weight and maybe some shadows make this dynamic*/
           }
 
           #quoteButton {
               font-size: 18px;
               text-transform: uppercase;
-
           }
+
+          .wrapper {
+              text-align: center;
+              margin: 50px;
+              background-color: #fafafa;
+              font-family: 'Noto Sans', sans-serif;
+          }
+
        </style>
-<h1>Random Quote Generator</h1>
-<ul>
-    <li>Feeling down?</li>
-    <li>Need some motivation?</li>
-    <li>Want some guidance?</li>
-</ul>
-<p>If the answer to any of the above is yes then click the button below</p>
-<div id="quoteBox">
-    <p id="quoteText">Shouldn't see me</p>
-</div>
-<button id="quoteButton" onclick="displayRandomQuote()">Click here</button>
+ <div class="wrapper">
+     <h1>Random Quote Generator</h1>
+     <ul>
+         <li>Feeling down?</li>
+         <li>Need some motivation?</li>
+         <li>Want some guidance?</li>
+     </ul>
+     <p>If the answer to any of the above is yes then click the button below</p>
+     <div id="quoteBox">
+         <p id="quoteText"></p>
+     </div>
+     <div class="wrapper">
+         <button id="quoteButton" onclick="displayRandomQuote()">Click here</button>
+     </div>
+ </div>
+
+
 </body>
 </html>
