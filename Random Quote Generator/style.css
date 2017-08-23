@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+  background-color: #c6a700;
+  margin: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  border: 2px double black;
+  text-align: center;
+  background-color: #fdd835;
+}
+
+ul {
+ list-style-type: square;
+ list-style-position: inside;
+}
+
+#quoteBox {
+   display: none;
+}
+
+#quoteText {
+  border: 2px double black;
+  font-family: cursive;
+  font-size: 28px;
+
+}
+
+#quoteButton {
+   font-size: 18px;
+   text-transform: uppercase;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.wrapper {
+   text-align: center;
+   margin: 50px;
+   background-color: #ffff6b;
+}

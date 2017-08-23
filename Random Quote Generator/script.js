@@ -22,4 +22,5 @@ function displayRandomQuote() {
 };
 
 // try animations
+// figure out an appropriate way to change colors
 // do this in jQuery
