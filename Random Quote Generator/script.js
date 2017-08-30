@@ -24,3 +24,4 @@ function displayRandomQuote() {
 // try animations
 // figure out an appropriate way to change colors
 // do this in jQuery
+// break apart the quote and the quoter in a key val pair and have them render differently
